@@ -95,7 +95,7 @@ export default function RegisFormPage() {
       setGenderError(true);
     }
 
-    if (fnameOk && lnameOk && plan && gender) {
+    if (fnameOk && lnameOk && planOk && genderOk) {
       alert(
         `Registration complete. Please pay money for ${computeTotalPayment().toLocaleString()} THB.`
       );
